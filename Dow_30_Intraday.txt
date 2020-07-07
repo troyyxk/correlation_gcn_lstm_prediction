@@ -1,0 +1,58 @@
+Listed: 43 symbols and 4 gigabytes
+Delisted: 3 symbols and 204 megabytes
+List last updated on: 6/1/2020
+
+Listed:
+
+#	Symbol	StartDate	Size(MB)	Description	Exchange	Industry	Sector
+1	AA	4/27/2007	67	"Alcoa Corporation"	NYSE	"Aluminum"	"Basic Industries"
+2	AAPL	1/2/1998	150	"Apple Inc."	NASDAQ	"Computer Manufacturing"	"Technology"
+3	AIG	1/2/1998	109	"American International Group, Inc."	NYSE	"Property-Casualty Insurers"	"Finance"
+4	AXP	1/2/1998	102	"American Express Company"	NYSE	"Finance: Consumer Services"	"Finance"
+5	BA	1/2/1998	107	"Boeing Company (The)"	NYSE	"Aerospace"	"Capital Goods"
+6	BAC	1/2/1998	136	"Bank of America Corporation"	NYSE	"Major Banks"	"Finance"
+7	C	1/2/1998	123	"Citigroup Inc."	NYSE	"Major Banks"	"Finance"
+8	CAT	1/2/1998	105	"Caterpillar, Inc."	NYSE	"Construction/Ag Equipment/Trucks"	"Capital Goods"
+9	CSCO	1/2/1998	126	"Cisco Systems, Inc."	NASDAQ	"Computer Communications Equipment"	"Technology"
+10	CVX	10/10/2001	89	"Chevron Corporation"	NYSE	"Integrated oil Companies"	"Energy"
+11	DD	5/24/2019	4.5	"DuPont de Nemours, Inc."	NYSE	"Major Chemicals"	"Basic Industries"
+12	DIS	1/2/1998	107	"Walt Disney Company (The)"	NYSE	"Services-Misc. Amusement & Recreation"	"Consumer Services"
+13	DOW	3/20/2019	5.51	"Dow Inc."	NYSE	"Major Chemicals"	"Basic Industries"
+14	GE	1/2/1998	125	"General Electric Company"	NYSE	"Consumer Electronics/Appliances"	"Energy"
+15	GM	11/18/2010	47	"General Motors Company"	NYSE	"Auto Manufacturing"	"Capital Goods"
+16	GS	5/4/1999	104	"Goldman Sachs Group, Inc. (The)"	NYSE	"Investment Bankers/Brokers/Service"	"Finance"
+17	HD	1/2/1998	106	"Home Depot, Inc. (The)"	NYSE	"RETAIL: Building Materials"	"Consumer Services"
+18	HON	1/2/1998	98	"Honeywell International Inc."	NYSE	"Aerospace"	"Capital Goods"
+19	HPQ	1/2/1998	112	"HP Inc."	NYSE	"Computer Manufacturing"	"Technology"
+20	IBM	1/2/1998	109	"International Business Machines Corporation"	NYSE	"Computer Manufacturing"	"Technology"
+21	INTC	1/2/1998	129	"Intel Corporation"	NASDAQ	"Semiconductors"	"Technology"
+22	JNJ	1/2/1998	104	"Johnson & Johnson"	NYSE	"Major Pharmaceuticals"	"Health Care"
+23	JPM	1/2/1998	111	"J P Morgan Chase & Co"	NYSE	"Major Banks"	"Finance"
+24	KO	1/2/1998	108	"Coca-Cola Company (The)"	NYSE	"Beverages (Production/Distribution)"	"Consumer Non-Durables"
+25	MCD	1/2/1998	105	"McDonald's Corporation"	NYSE	"Restaurants"	"Consumer Services"
+26	MDLZ	6/13/2001	88	"Mondelez International, Inc."	NASDAQ	"Packaged Foods"	"Consumer Non-Durables"
+27	MMM	1/2/1998	100	"3M Company"	NYSE	"Medical/Dental Instruments"	"Health Care"
+28	MO	1/2/1998	108	"Altria Group"	NYSE	"Farming/Seeds/Milling"	"Consumer Non-Durables"
+29	MRK	1/2/1998	104	"Merck & Company, Inc."	NYSE	"Major Pharmaceuticals"	"Health Care"
+30	MSFT	1/2/1998	128	"Microsoft Corporation"	NASDAQ	"Computer Software: Prepackaged Software"	"Technology"
+31	NKE	1/2/1998	102	"Nike, Inc."	NYSE	"Shoe Manufacturing"	"Consumer Non-Durables"
+32	PFE	1/2/1998	113	"Pfizer, Inc."	NYSE	"Major Pharmaceuticals"	"Health Care"
+33	PG	1/2/1998	103	"Procter & Gamble Company (The)"	NYSE	"Package Goods/Cosmetics"	"Basic Industries"
+34	PGP	5/26/2005	11	"Pimco Global Stocksplus & Income Fund"	NYSE	""	""
+35	RTX	4/27/2007	59	"Raytheon Technologies Corporation"	NYSE	"Aerospace"	"Capital Goods"
+36	T	1/2/1998	113	"AT&T Inc."	NYSE	"Telecommunications Equipment"	"Public Utilities"
+37	TRV	2/27/2007	60	"The Travelers Companies, Inc."	NYSE	"Property-Casualty Insurers"	"Finance"
+38	UNH	1/2/1998	99	"UnitedHealth Group Incorporated"	NYSE	"Medical Specialities"	"Health Care"
+39	V	3/19/2008	61	"Visa Inc."	NYSE	"Business Services"	"Miscellaneous"
+40	VZ	7/3/2000	98	"Verizon Communications Inc."	NYSE	"Telecommunications Equipment"	"Public Utilities"
+41	WBA	1/2/1998	99	"Walgreens Boots Alliance, Inc."	NASDAQ	"Medical/Nursing Services"	"Health Care"
+42	WMT	1/2/1998	105	"Walmart Inc."	NYSE	"Department/Specialty Retail Stores"	"Consumer Services"
+43	XOM	12/1/1999	100	"Exxon Mobil Corporation"	NYSE	"Integrated oil Companies"	"Energy"
+
+
+Delisted:
+
+1	DWDP	4/27/2007	57	 	NASDAQ	""	""
+2	KFT	6/14/2001	49	 	NYSE	""	""
+3	UTX	1/2/1998	98	 	NYSE	""	""
+
