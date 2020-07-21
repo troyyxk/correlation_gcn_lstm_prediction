@@ -19,21 +19,22 @@ etf_names = [f.split(".")[0] for f in etf_files_names]
 
 dow_dfs = []
 etf_dfs = []
-headers = ["date", "time", "open_price", "close_price", "highest_price", "lowest_price", "volumn"]
-dtypes={"date": "str", 
-    "time":"str",
-    "open_price": "float", 
-    "highest_price": "float",
-    "lowest_price": "float", 
-    "close_price": "float",
-    "volumn": "int"}
+headers = ["date", "time", "open_price", "close_price",
+           "highest_price", "lowest_price", "volumn"]
+dtypes = {"date": "str",
+          "time": "str",
+          "open_price": "float",
+          "highest_price": "float",
+          "lowest_price": "float",
+          "close_price": "float",
+          "volumn": "int"}
 
 print("Start read dow file...")
-dow_dfs = read_files(dow_files_names, dow_files_addr)
+dow_dfs = read_files(dow_files_names, dow_files_addr, headers, dtypes)
 print("Finish read dow file.")
 print("---------------------")
 print("Start read etf file...")
-etf_dfs = read_files(etf_files_names, etf_files_addr)
+etf_dfs = read_files(etf_files_names, etf_files_addr, headers, dtypes)
 print("Finish read etf file.")
 
 
@@ -42,16 +43,31 @@ dow_time_slice = [min(dow_dfs[0]["datetime"]), max(dow_dfs[0]["datetime"])]
 etf_time_slice = [min(etf_dfs[0]["datetime"]), max(etf_dfs[0]["datetime"])]
 
 print("Start check dow date...")
-dow_time_slice = find_common_time_slice(dow_dfs, dow_time_slice, dow_files_names)
-print("Finish check dow date...")
+dow_time_slice = find_common_time_slice(
+    dow_dfs, dow_time_slice, dow_files_names)
+print("Finish check dow date.")
 print("---------------------")
 print("Start check etf date...")
-etf_time_slice = find_common_time_slice(etf_dfs, etf_time_slice, etf_files_names)
-print("Finish check etf date...")
+etf_time_slice = find_common_time_slice(
+    etf_dfs, etf_time_slice, etf_files_names)
+print("Finish check etf date.")
 
 
 # limit all of the df to the same time frames
+print("Start fixing time range...")
 for i in range(len(dow_dfs)):
-    dow_dfs[i] = dow_dfs[i].loc[(dow_dfs[i]["datetime"] >= dow_time_slice[0]) & (dow_dfs[i]["datetime"] <= dow_time_slice[1])]
+    dow_dfs[i] = dow_dfs[i].loc[(dow_dfs[i]["datetime"] >= dow_time_slice[0]) & (
+        dow_dfs[i]["datetime"] <= dow_time_slice[1])]
 for i in range(len(etf_dfs)):
-    etf_dfs[i] = etf_dfs[i].loc[(etf_dfs[i]["datetime"] >= etf_time_slice[0]) & (etf_dfs[i]["datetime"] <= etf_time_slice[1])]
+    etf_dfs[i] = etf_dfs[i].loc[(etf_dfs[i]["datetime"] >= etf_time_slice[0]) & (
+        etf_dfs[i]["datetime"] <= etf_time_slice[1])]
+print("Finish fixing time range.")
+
+# Modify all time difference to 5 min
+print("Start modify dow time difference...")
+dow_5min_dfs = modify_time_inteval(dow_dfs, dow_time_slice, 5)
+print("Finish modify dow time difference.")
+
+print("Start modify etf time difference...")
+etf_5min_dfs = modify_time_inteval(etf_dfs, etf_time_slice, 5)
+print("Finish modify etf time difference.")
